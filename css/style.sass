@@ -1,0 +1,282 @@
+body
+    p
+        margin: 0
+        padding: 0
+    ul
+        padding: 0
+        margin: 0
+    a:hover
+        text-decoration: none
+    li
+        list-style: none
+
+    
+.header
+        background-image: url('../img/bg.png')
+        //padding-top: 57%
+        background-size: 100%;
+        background-repeat: no-repeat;
+        &__nav
+            display: flex
+            justify-content: space-between
+            width: 100%
+            padding-top: 30px
+        &__nav ul
+            display: flex
+            justify-content: space-between
+            width: 45%
+            margin: 0
+            align-items: center
+        &__nav ul li a
+            color: #fff
+        &__nav ul li a:hover
+            color: #000
+        &__nav button
+            background: transparent;
+            border: 1px solid #fff
+            border-radius: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #fff
+        &__nav ul li span
+            width: 5px;
+            height: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin-left: auto
+            margin-right: auto
+        &__nav ul li
+            display: flex
+            flex-direction: column
+        .span-link-one, .span-link-two,
+        .span-link-three, .span-link-four
+            display: none
+        .theme-hover
+            display: block
+        &__nav button:hover
+            border-color: #5489c3
+            background-color: #5489c3
+        a, button
+            font-family: 'Montserrat', sans-serif;
+        &__title_info span
+            font-weight: bold
+            color: #fff 
+            font-size: 24px
+            letter-spacing: 1.5px
+        &__title_info p, &__title_info span
+            font-family: 'Montserrat', sans-serif
+            color: #fff 
+        &__title_info p
+            margin-top: 15px
+            margin-bottom: 15px
+        &__title_info button
+            padding-left: 20px
+            padding-right: 20px
+            border: 1px solid #e70067
+            background-color: #e70067
+            border-radius: 25px
+            padding-top: 10px
+            padding-bottom: 10px
+            color: #fff
+        &__title_info
+            padding-top: 22%
+            padding-bottom: 22%
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+        .mobile-wrap
+            display: none
+        &__title_info button:hover
+            background-color: #c9005a
+.info
+    background-image: url('../img/diagramma.png')
+    background-repeat: no-repeat
+    background-position-y: bottom;
+    background-position-x: right;
+    padding-top: 100px
+    padding-bottom: 100px
+    &__text_wrap span, &__text_wrap p, 
+    &__text_wrap ul li
+        font-family: 'Montserrat', sans-serif
+        color: #60759d
+    &__text_wrap span
+        font-size: 24px
+        font-weight: bold
+        letter-spacing: 1px
+    &__text_wrap p
+        margin-top: 20px
+        margin-bottom: 20px
+    &__text_wrap ul li
+        list-style: unset
+        margin-bottom: 20px
+    &__text_wrap button
+        font-family: 'Montserrat', sans-serif
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #e70067;
+        background-color: #e70067;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #fff;
+    .row
+        align-items: center
+        justify-content: space-around
+    .container
+        max-width: 1200px
+    &__text_wrap button:hover
+        background-color: #c9005a
+
+.app
+    background-image: url('../img/bg-2.png')
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    padding-bottom: 50px
+    &__title
+        padding-top: 100px
+        display: flex
+        justify-content: center
+        font-family: 'Montserrat', sans-serif;
+        color: #60759d;
+        font-size: 24px
+        font-weight: bold
+        letter-spacing: 1.5px
+    &__info
+        font-family: 'Montserrat', sans-serif;
+        color: #60759d;
+    &__col_wrap
+        padding-top: 40px
+        padding-bottom: 40px
+    &__img
+        margin-bottom: 20px
+
+.personal
+    background-color: #fafaff
+    padding-bottom: 95px
+    &__title
+        display: flex
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #31496b;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        padding-top: 100px
+        margin-bottom: 40px
+    &__list_text span, &__list_text p
+        color: #60759d
+        line-height: 30px
+        font-family: 'Montserrat', sans-serif;
+    &__list_text span
+        font-weight: bold
+        font-size: 20px
+    &__list_text p
+        margin-top: 10px
+        margin-bottom: 70px
+    &__flex_wrap
+        display: flex
+        align-items: center
+    &__list_info
+        display: flex
+    &__list_img
+        margin-top: -50px
+    .container
+        max-width: 1500px
+    
+.special
+    padding-bottom: 50px
+    &__wrap
+        margin-right: 5%
+        display: flex
+    &__text_wrap  p, &__text_wrap ul li
+        font-family: 'Montserrat', sans-serif;
+        color: #60759d;
+    &__text_wrap ul li
+        list-style: unset;
+        margin-bottom: 20px
+    &__text_wrap p
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        margin-bottom: 40px
+    &__info_text
+        margin-left: 70px
+    &__text_wrap
+        padding-top: 100px
+    &__pic_info
+        margin-top: -90px
+        
+.form
+    padding-top: 100px
+    padding-bottom: 100px
+    background-color: #e2e9f6
+    .form-inline, &__title_info
+        margin: 0 auto
+    .row
+        flex-direction: column
+    &__title_info
+        text-align: center
+        font-family: 'Montserrat', sans-serif
+    &__title_info span
+        color: #60759d;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+    &__title_info p  
+        color: #60759d
+        letter-spacing: 1.5px;
+        margin-top: 30px
+        margin-bottom: 40px
+        width: 60%
+        margin-left: auto
+        margin-right: auto
+    input
+        border-radius: 25px
+        border: 1px solid #4f699b
+        background: transparent
+        width: 340px !important
+    input::placeholder
+        font-size: 14px
+        color: #a8b2bf
+    .form-control:focus
+        background: transparent !important
+        box-shadow: none
+        border-color: #4f699b
+    .form-inline
+        width: 50%
+        display: flex
+        justify-content: center 
+    .btn
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #e70067;
+        background-color: #e70067;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #fff;
+    .btn, .form-group
+        margin-bottom: 0 !important
+    .btn:hover
+        border-color: #c9005a
+        background-color: #c9005a
+
+.footer
+    padding-top: 30px
+    padding-bottom: 30px
+    background-color: #39649d
+    &__wrap
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    &__menu li a
+        color: #fff
+        font-family: 'Montserrat', sans-serif
+    &__menu li a:hover
+        color: #000
+    &__menu
+        width: 65%
+        display: flex
+        justify-content: space-between
+        
